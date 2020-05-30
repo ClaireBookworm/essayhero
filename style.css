@@ -1,5 +1,5 @@
 body {
-    background-color: #e0e6ed;
+    background-color: #ffffff;
 }
 .threeColumns{
     margin-left: 5rem;
@@ -22,7 +22,6 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -82,12 +81,20 @@ body {
 .column {
   float: left;
 }
-.left,.right {
-    width: 25%;
-    background-color: rgba(231,231,231, 0.685);
+.left {
+    width: 15%;
+    background-color: #ffdc89;
+    padding: 10px;
+}
+.right{
+    padding: 10px;
+    float: right;
+    width: auto;
+    background-color: #ffdc89;
 }
 .center {
-    width: 50%;
+    margin: 10px;
+    width: 65%;
 }
 /* Clear floats after the columns */
 .threeColumns:after {
