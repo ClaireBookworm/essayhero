@@ -38,5 +38,4 @@ CKEDITOR.editorConfig = function( config ) {
 
 	config.language = 'es';
 	config.uiColor = '#F7B42C';
-	config.width = 100%;
 };
